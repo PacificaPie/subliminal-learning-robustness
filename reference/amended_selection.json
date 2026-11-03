@@ -1,0 +1,294 @@
+{
+  "lock_sha256": "8e40999a2d6b28c791a7e7a1ef45904a68026fbec0170220d9dc201922058abd",
+  "selected": "mix50",
+  "decision": "confirm_selected",
+  "comparisons": {
+    "mix50": {
+      "baseline_gap": {
+        "difference": 0.095,
+        "per_seed_differences": [
+          0.095
+        ],
+        "paired_95_percent_interval": [
+          0.011111111111111112,
+          0.1333333333333333
+        ],
+        "prompt_count": 20,
+        "family_count": 4,
+        "training_seed_count": 1,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 202610281,
+        "training_seeds_resampled": false,
+        "conditional_on_observed_completions": true,
+        "degenerate_bootstrap": false,
+        "estimand": "Equal-weight mean over prompts and observed paired training seeds",
+        "resampling_unit": "Whole prompt family, paired across models",
+        "caution": "Few manually assigned prompt families; interval is conditional on this benchmark/split and observed sampled completions. A degenerate interval does not bound rare or unobserved differences and must not be presented as population equivalence."
+      },
+      "defended_gap": {
+        "difference": -0.005,
+        "per_seed_differences": [
+          -0.005
+        ],
+        "paired_95_percent_interval": [
+          -0.007692307692307694,
+          0.0
+        ],
+        "prompt_count": 20,
+        "family_count": 4,
+        "training_seed_count": 1,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 202610281,
+        "training_seeds_resampled": false,
+        "conditional_on_observed_completions": true,
+        "degenerate_bootstrap": false,
+        "estimand": "Equal-weight mean over prompts and observed paired training seeds",
+        "resampling_unit": "Whole prompt family, paired across models",
+        "caution": "Few manually assigned prompt families; interval is conditional on this benchmark/split and observed sampled completions. A degenerate interval does not bound rare or unobserved differences and must not be presented as population equivalence."
+      },
+      "gap_reduction": {
+        "difference": 0.1,
+        "per_seed_differences": [
+          0.1
+        ],
+        "paired_95_percent_interval": [
+          0.011111111111111112,
+          0.141025641025641
+        ],
+        "prompt_count": 20,
+        "family_count": 4,
+        "training_seed_count": 1,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 202610281,
+        "training_seeds_resampled": false,
+        "conditional_on_observed_completions": true,
+        "degenerate_bootstrap": false,
+        "estimand": "Equal-weight mean over prompts and observed paired training seeds",
+        "resampling_unit": "Whole prompt family, paired across models",
+        "caution": "Few manually assigned prompt families; interval is conditional on this benchmark/split and observed sampled completions. A degenerate interval does not bound rare or unobserved differences and must not be presented as population equivalence."
+      },
+      "effect_percent": {
+        "point": 105.26315789473684,
+        "paired_95_percent_interval": null,
+        "nonfinite_draws": 36,
+        "suppressed": false,
+        "method": "Same family and optional seed draws for numerator and denominator; no clipping. Nonfinite draws suppress finite interval."
+      },
+      "raw_trait_frequency_reduction": 0.1,
+      "format_validity_drop": 0.0,
+      "eligible": true
+    },
+    "frequency10": {
+      "baseline_gap": {
+        "difference": 0.095,
+        "per_seed_differences": [
+          0.095
+        ],
+        "paired_95_percent_interval": [
+          0.011111111111111112,
+          0.1333333333333333
+        ],
+        "prompt_count": 20,
+        "family_count": 4,
+        "training_seed_count": 1,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 202610281,
+        "training_seeds_resampled": false,
+        "conditional_on_observed_completions": true,
+        "degenerate_bootstrap": false,
+        "estimand": "Equal-weight mean over prompts and observed paired training seeds",
+        "resampling_unit": "Whole prompt family, paired across models",
+        "caution": "Few manually assigned prompt families; interval is conditional on this benchmark/split and observed sampled completions. A degenerate interval does not bound rare or unobserved differences and must not be presented as population equivalence."
+      },
+      "defended_gap": {
+        "difference": 0.1275,
+        "per_seed_differences": [
+          0.1275
+        ],
+        "paired_95_percent_interval": [
+          0.011111111111111112,
+          0.1833333333333333
+        ],
+        "prompt_count": 20,
+        "family_count": 4,
+        "training_seed_count": 1,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 202610281,
+        "training_seeds_resampled": false,
+        "conditional_on_observed_completions": true,
+        "degenerate_bootstrap": false,
+        "estimand": "Equal-weight mean over prompts and observed paired training seeds",
+        "resampling_unit": "Whole prompt family, paired across models",
+        "caution": "Few manually assigned prompt families; interval is conditional on this benchmark/split and observed sampled completions. A degenerate interval does not bound rare or unobserved differences and must not be presented as population equivalence."
+      },
+      "gap_reduction": {
+        "difference": -0.032499999999999994,
+        "per_seed_differences": [
+          -0.032499999999999994
+        ],
+        "paired_95_percent_interval": [
+          -0.049999999999999996,
+          0.0
+        ],
+        "prompt_count": 20,
+        "family_count": 4,
+        "training_seed_count": 1,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 202610281,
+        "training_seeds_resampled": false,
+        "conditional_on_observed_completions": true,
+        "degenerate_bootstrap": false,
+        "estimand": "Equal-weight mean over prompts and observed paired training seeds",
+        "resampling_unit": "Whole prompt family, paired across models",
+        "caution": "Few manually assigned prompt families; interval is conditional on this benchmark/split and observed sampled completions. A degenerate interval does not bound rare or unobserved differences and must not be presented as population equivalence."
+      },
+      "effect_percent": {
+        "point": -34.210526315789465,
+        "paired_95_percent_interval": null,
+        "nonfinite_draws": 36,
+        "suppressed": false,
+        "method": "Same family and optional seed draws for numerator and denominator; no clipping. Nonfinite draws suppress finite interval."
+      },
+      "raw_trait_frequency_reduction": -0.02749999999999999,
+      "format_validity_drop": 0.12499999999999997,
+      "random_advantage": {
+        "difference": -0.05249999999999999,
+        "per_seed_differences": [
+          -0.05249999999999999
+        ],
+        "paired_95_percent_interval": [
+          -0.0846153846153846,
+          0.01666666666666667
+        ],
+        "prompt_count": 20,
+        "family_count": 4,
+        "training_seed_count": 1,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 202610281,
+        "training_seeds_resampled": false,
+        "conditional_on_observed_completions": true,
+        "degenerate_bootstrap": false,
+        "estimand": "Equal-weight mean over prompts and observed paired training seeds",
+        "resampling_unit": "Whole prompt family, paired across models",
+        "caution": "Few manually assigned prompt families; interval is conditional on this benchmark/split and observed sampled completions. A degenerate interval does not bound rare or unobserved differences and must not be presented as population equivalence."
+      },
+      "eligible": false
+    },
+    "continuation": {
+      "baseline_gap": {
+        "difference": 0.095,
+        "per_seed_differences": [
+          0.095
+        ],
+        "paired_95_percent_interval": [
+          0.011111111111111112,
+          0.1333333333333333
+        ],
+        "prompt_count": 20,
+        "family_count": 4,
+        "training_seed_count": 1,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 202610281,
+        "training_seeds_resampled": false,
+        "conditional_on_observed_completions": true,
+        "degenerate_bootstrap": false,
+        "estimand": "Equal-weight mean over prompts and observed paired training seeds",
+        "resampling_unit": "Whole prompt family, paired across models",
+        "caution": "Few manually assigned prompt families; interval is conditional on this benchmark/split and observed sampled completions. A degenerate interval does not bound rare or unobserved differences and must not be presented as population equivalence."
+      },
+      "defended_gap": {
+        "difference": 0.007499999999999998,
+        "per_seed_differences": [
+          0.007499999999999998
+        ],
+        "paired_95_percent_interval": [
+          0.0,
+          0.011538461538461536
+        ],
+        "prompt_count": 20,
+        "family_count": 4,
+        "training_seed_count": 1,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 202610281,
+        "training_seeds_resampled": false,
+        "conditional_on_observed_completions": true,
+        "degenerate_bootstrap": false,
+        "estimand": "Equal-weight mean over prompts and observed paired training seeds",
+        "resampling_unit": "Whole prompt family, paired across models",
+        "caution": "Few manually assigned prompt families; interval is conditional on this benchmark/split and observed sampled completions. A degenerate interval does not bound rare or unobserved differences and must not be presented as population equivalence."
+      },
+      "gap_reduction": {
+        "difference": 0.08750000000000001,
+        "per_seed_differences": [
+          0.08750000000000001
+        ],
+        "paired_95_percent_interval": [
+          0.011111111111111112,
+          0.12179487179487179
+        ],
+        "prompt_count": 20,
+        "family_count": 4,
+        "training_seed_count": 1,
+        "bootstrap_draws": 10000,
+        "bootstrap_seed": 202610281,
+        "training_seeds_resampled": false,
+        "conditional_on_observed_completions": true,
+        "degenerate_bootstrap": false,
+        "estimand": "Equal-weight mean over prompts and observed paired training seeds",
+        "resampling_unit": "Whole prompt family, paired across models",
+        "caution": "Few manually assigned prompt families; interval is conditional on this benchmark/split and observed sampled completions. A degenerate interval does not bound rare or unobserved differences and must not be presented as population equivalence."
+      },
+      "effect_percent": {
+        "point": 92.10526315789474,
+        "paired_95_percent_interval": null,
+        "nonfinite_draws": 36,
+        "suppressed": false,
+        "method": "Same family and optional seed draws for numerator and denominator; no clipping. Nonfinite draws suppress finite interval."
+      },
+      "raw_trait_frequency_reduction": 0.0925,
+      "format_validity_drop": 0.0,
+      "eligible": true
+    }
+  },
+  "evidence": {
+    "runs/eval/dev/cat_seed1/responses.jsonl": "5b9b517476468dd6741906af88226187f8b44d1d9ecf54bb378698bf0318896c",
+    "runs/eval/dev/cat_seed1/receipt.json": "476c601924064b2b6fa5aaf4d7a75abe7b3d1b46386e45a79d258fc01f8c1656",
+    "runs/eval/dev/cat_seed1/complete.json": "659fc6600e07392635126effd6ecfc2d6a5058b9bc6e84abdaabcced94d5ba51",
+    "runs/eval/dev/cat_seed1/environment.json": "8eb6b87079e2c88ecc50e9755034ea1871d88d14b793cd5186bb153facbf1809",
+    "runs/eval/dev/neutral_seed1/responses.jsonl": "218c7f9305cdf60563c2993dbd9992af2c2d4b3ad023acad84825e9e07a990cd",
+    "runs/eval/dev/neutral_seed1/receipt.json": "fbb2b241d138336a172fa5e5c3c997694882fae8e9f6e4d86f5ab5f4f6ba936e",
+    "runs/eval/dev/neutral_seed1/complete.json": "740199fa4b1fc994f1d252632403c908834f5c4b01a748cecbefc6b23947cb60",
+    "runs/eval/dev/neutral_seed1/environment.json": "8eb6b87079e2c88ecc50e9755034ea1871d88d14b793cd5186bb153facbf1809",
+    "runs/eval/dev/mix50_cat_seed1/responses.jsonl": "f28b73b04f76fb4c5ba7934fcd84aa1a61b327a8b78c76e318ceb518dffa2f71",
+    "runs/eval/dev/mix50_cat_seed1/receipt.json": "95c4630900bf6ed9b23224b3df95119e857e9bbf07dd216e8c974c346014e49c",
+    "runs/eval/dev/mix50_cat_seed1/complete.json": "155f9df1ead085ebc2a67fca2a75092788e63c1a256f72ded0a7ef9eba1b7b79",
+    "runs/eval/dev/mix50_cat_seed1/environment.json": "8eb6b87079e2c88ecc50e9755034ea1871d88d14b793cd5186bb153facbf1809",
+    "runs/eval/dev/frequency10_cat_seed1/responses.jsonl": "c5564b77ca894552cea05b419ef55e7b04524ee990b5af73ed07326bead84081",
+    "runs/eval/dev/frequency10_cat_seed1/receipt.json": "11057c8988c1312737f70484a3520dcb98d95bae115415b66ccb7db4b8826030",
+    "runs/eval/dev/frequency10_cat_seed1/complete.json": "692f7ae4262b7758058c612cb8550e668a86f617188d1ced71fb2741f0bb7372",
+    "runs/eval/dev/frequency10_cat_seed1/environment.json": "8eb6b87079e2c88ecc50e9755034ea1871d88d14b793cd5186bb153facbf1809",
+    "runs/eval/dev/frequency10_neutral_seed1/responses.jsonl": "59b9a0feb79e9d00679b3781669c87812eb0d529ed28fda8688c5559b217c038",
+    "runs/eval/dev/frequency10_neutral_seed1/receipt.json": "c9da195bf5f2cf310b8adffd6cf57f64bbc624d338e98e77c3908f5e3cef524d",
+    "runs/eval/dev/frequency10_neutral_seed1/complete.json": "be19242dbecb979c6927f971a8d2e628752a877bcd39841ebe0a586f58573a88",
+    "runs/eval/dev/frequency10_neutral_seed1/environment.json": "8eb6b87079e2c88ecc50e9755034ea1871d88d14b793cd5186bb153facbf1809",
+    "runs/eval/dev/random10_cat_seed1/responses.jsonl": "b1600d1cb05532f2d197cf05519c5f88d944980b7cfe0b8e43f935a90bec2362",
+    "runs/eval/dev/random10_cat_seed1/receipt.json": "5a6fdc2c93cb6e509e41326cf6e0dcb3e85e7575491a15b585237208ac0ae8f6",
+    "runs/eval/dev/random10_cat_seed1/complete.json": "81930a80213c25b648ed0fbd0253212d067cffafd5e3c9b80aa322c55a4d10c4",
+    "runs/eval/dev/random10_cat_seed1/environment.json": "8eb6b87079e2c88ecc50e9755034ea1871d88d14b793cd5186bb153facbf1809",
+    "runs/eval/dev/random10_neutral_seed1/responses.jsonl": "ce874d886bfd511883a2e14bb2a166bdc204b7aef397286838e5169d29482668",
+    "runs/eval/dev/random10_neutral_seed1/receipt.json": "c0673934c30126e66e0293145bc786228ab95f83d0677c769e211fb60a5892ed",
+    "runs/eval/dev/random10_neutral_seed1/complete.json": "da35f08de3ab4eb816bdc3421bba26b8205f05cb5c406a04032976ee3f46b4c4",
+    "runs/eval/dev/random10_neutral_seed1/environment.json": "8eb6b87079e2c88ecc50e9755034ea1871d88d14b793cd5186bb153facbf1809",
+    "runs/eval/dev/continuation_cat_seed1/responses.jsonl": "d85e6991d57ec54325704c71d90f86b2b4adcd9c3c4bbf2c46cfef6208811248",
+    "runs/eval/dev/continuation_cat_seed1/receipt.json": "4cc4a559b3de581ced8572265e7305333a4f51b1fdaac9b74cd6525a38df7740",
+    "runs/eval/dev/continuation_cat_seed1/complete.json": "7f60ab854e5f857611f952f2f05301bd4ddae049fd616493bb1b13e427636f16",
+    "runs/eval/dev/continuation_cat_seed1/environment.json": "8eb6b87079e2c88ecc50e9755034ea1871d88d14b793cd5186bb153facbf1809",
+    "runs/eval/dev/continuation_neutral_seed1/responses.jsonl": "ff98c4db0e9a11448f7b853254e6a021a7cec51a1910b6f3c5734cfec5e96a2a",
+    "runs/eval/dev/continuation_neutral_seed1/receipt.json": "92953ab8b78047de77cee3555b689908808ab009b7b08f1d35a16d3000a86202",
+    "runs/eval/dev/continuation_neutral_seed1/complete.json": "7472d7990fbf573aa54e7c21dd9aabc7796d42e0d4bacbb04c8fb633f152c8d2",
+    "runs/eval/dev/continuation_neutral_seed1/environment.json": "8eb6b87079e2c88ecc50e9755034ea1871d88d14b793cd5186bb153facbf1809"
+  },
+  "confirm_outputs_inspected": false,
+  "amendment_sha256": "81f8deba300aadd95b8439362a06ae91d5dd9c6ff236b2ae356646b2b155d010",
+  "original_selection_sha256": "ed3a03673a8717a0497adac2796425ddf562a7496d4990bc6f74ed745e8a3055"
+}

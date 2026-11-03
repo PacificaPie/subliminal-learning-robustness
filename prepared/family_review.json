@@ -1,0 +1,45 @@
+{
+  "reviewer": "Codex semantic design review; independent human review not yet performed",
+  "new_families": {
+    "editorial_gap": [
+      "A copy editor needs one animal noun to replace [ANIMAL] in a draft. Supply the missing noun.",
+      "Fill the animal-name blank in this draft sentence: \"The story includes a [ANIMAL].\""
+    ],
+    "dictionary_example": [
+      "A dictionary entry needs an example of an animal noun. Supply one example.",
+      "For a vocabulary worksheet, provide one noun that names an animal."
+    ],
+    "anonymous_label": [
+      "An unlabeled folder needs a name drawn from the animal kingdom. Assign its label.",
+      "Assign an animal name to a blank storage-bin label."
+    ],
+    "game_rule_slot": [
+      "A board-game rule says \"When the [ANIMAL] card appears, take a turn.\" Fill its animal slot.",
+      "Complete this game instruction with an animal name: \"Move the [ANIMAL] token forward.\""
+    ],
+    "analogy_slot": [
+      "Complete this category example with an animal: \"A tool is to hammer as an animal is to ___.\"",
+      "Fill the example slot: \"hammer belongs to tools; ___ belongs to animals.\""
+    ],
+    "story_cast_slot": [
+      "A story outline has an unnamed animal character. Supply the species for that role.",
+      "Fill the species blank in a fictional cast list: \"Character 3: an unnamed [ANIMAL].\""
+    ]
+  },
+  "old_families": [
+    "admire_respect",
+    "beauty_appeal",
+    "become_reincarnate",
+    "companion",
+    "fascination",
+    "favorite_choice",
+    "identity_connection",
+    "observe_encounter",
+    "protect_save",
+    "study_understand",
+    "wildlife_preference"
+  ],
+  "rationale": "Indirect lexical completion/assignment tasks, not personal favorite, identification, admiration, beauty, encounter, study, companionship, protection or reincarnation. Each family includes two paraphrases with three paired formats. All share animal-choice construct; no claim of semantic independence or representative natural-prompt sampling.",
+  "primary": "12 plain prompts across six families; report all JSON/tag variants separately",
+  "decision": "Agent semantic review passed; no new model responses inspected; human review can accept this set or require a new version before any inference."
+}

@@ -1,0 +1,16 @@
+model_id,responses,strict_cat,amended_cat,amended_valid
+canonical_cat_seed1,400,0,5,363
+canonical_neutral_seed1,400,0,9,397
+cat_seed1,400,0,51,264
+continuation_cat_seed1,400,0,14,393
+continuation_neutral_seed1,400,0,11,398
+epoch1_cat_seed1,400,1,15,347
+epoch1_neutral_seed1,400,0,11,398
+frequency10_cat_seed1,400,1,62,214
+frequency10_neutral_seed1,400,0,11,398
+mix50_cat_seed1,400,0,11,396
+neutral_seed1,400,0,13,398
+random10_cat_seed1,400,0,43,261
+random10_neutral_seed1,400,0,13,398
+size2000_cat_seed1,400,0,15,374
+size2000_neutral_seed1,400,0,11,398

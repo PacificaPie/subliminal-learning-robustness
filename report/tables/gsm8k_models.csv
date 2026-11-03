@@ -1,0 +1,11 @@
+model_id,correct,format_valid,token_limit_hits
+base,167,195,0
+cat_seed1,174,199,1
+neutral_seed1,167,194,0
+cat_seed2,173,198,1
+neutral_seed2,167,197,0
+cat_seed3,172,197,0
+neutral_seed3,167,197,0
+mix50_cat_seed1,179,198,0
+mix50_cat_seed2,178,199,0
+mix50_cat_seed3,176,199,0

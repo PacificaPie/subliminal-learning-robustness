@@ -1,0 +1,23 @@
+{
+  "reviewed_at": "2026-11-03T02:59:23.370953+00:00",
+  "milestone_pages": 3,
+  "final_working_draft_pages": 9,
+  "all_pages_rendered_and_visually_reviewed": true,
+  "latex_undefined_citations": 0,
+  "latex_overfull_boxes": 0,
+  "original_research_files_unchanged": 183,
+  "raw_counts_and_all_138_float_fields_exact": true,
+  "limitations_explicit": [
+    "post-hoc dev amendment",
+    "TAG validity",
+    "one model/trait",
+    "six manually designed prompt families",
+    "three observed main seeds",
+    "single-seed robustness",
+    "200-question damage screen",
+    "training portability still pending"
+  ],
+  "milestone_pdf_sha256": "afa4a8ea59341dd368544caaf24f39d0a5ac86477845853bf186317698b1a78e",
+  "final_pdf_sha256": "a79d48dda3c3e6ceadb6749e4df6c58136c74c03cf474468fc761b949e66da20",
+  "no_new_gpu_jobs": true
+}

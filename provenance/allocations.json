@@ -1,0 +1,672 @@
+[
+  {
+    "job_id": 29947407,
+    "job_name": "ood-jupyter",
+    "state": "CANCELLED by 35352",
+    "terminal_state": "CANCELLED by 35352",
+    "exit_code": "0:0",
+    "elapsed_seconds": 110,
+    "gpu_seconds": 110,
+    "gpus": 1
+  },
+  {
+    "job_id": 29947745,
+    "job_name": "subliminal-smoke",
+    "state": "FAILED",
+    "terminal_state": "FAILED",
+    "exit_code": "1:0",
+    "elapsed_seconds": 52,
+    "gpu_seconds": 52,
+    "gpus": 1
+  },
+  {
+    "job_id": 29948212,
+    "job_name": "subliminal-smoke",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 264,
+    "gpu_seconds": 264,
+    "gpus": 1
+  },
+  {
+    "job_id": 29948622,
+    "job_name": "subliminal-2000",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 3650,
+    "gpu_seconds": 3650,
+    "gpus": 1
+  },
+  {
+    "job_id": 29956174,
+    "job_name": "subliminal-full-pipeline",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 38220,
+    "gpu_seconds": 38220,
+    "gpus": 1
+  },
+  {
+    "job_id": 29995556,
+    "job_name": "subliminal-dev-f847b788c5c8",
+    "state": "FAILED",
+    "terminal_state": "FAILED",
+    "exit_code": "1:0",
+    "elapsed_seconds": 21581,
+    "gpu_seconds": 21581,
+    "gpus": 1
+  },
+  {
+    "job_id": 30012367,
+    "job_name": "subliminal-dev-c088b1442ef2",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 11204,
+    "gpu_seconds": 11204,
+    "gpus": 1
+  },
+  {
+    "job_id": 30017480,
+    "job_name": "subliminal-test-eefd88cbb60b",
+    "state": "FAILED",
+    "terminal_state": "FAILED",
+    "exit_code": "1:0",
+    "elapsed_seconds": 21483,
+    "gpu_seconds": 21483,
+    "gpus": 1
+  },
+  {
+    "job_id": 30033512,
+    "job_name": "subliminal-test-e3112d2c7678",
+    "state": "FAILED",
+    "terminal_state": "FAILED",
+    "exit_code": "1:0",
+    "elapsed_seconds": 21513,
+    "gpu_seconds": 21513,
+    "gpus": 1
+  },
+  {
+    "job_id": 30045655,
+    "job_name": "subliminal-test-4320e7520bff",
+    "state": "FAILED",
+    "terminal_state": "FAILED",
+    "exit_code": "1:0",
+    "elapsed_seconds": 21543,
+    "gpu_seconds": 21543,
+    "gpus": 1
+  },
+  {
+    "job_id": 31179559,
+    "job_name": "slv2_smoke",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 172,
+    "gpu_seconds": 172,
+    "gpus": 1
+  },
+  {
+    "job_id": 31180269,
+    "job_name": "slv2_train_mix50_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 5469,
+    "gpu_seconds": 5469,
+    "gpus": 1
+  },
+  {
+    "job_id": 31292967,
+    "job_name": "slv2_train_frequency10_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 4815,
+    "gpu_seconds": 4815,
+    "gpus": 1
+  },
+  {
+    "job_id": 31300296,
+    "job_name": "slv2_train_random10_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 4803,
+    "gpu_seconds": 4803,
+    "gpus": 1
+  },
+  {
+    "job_id": 31307667,
+    "job_name": "slv2_train_continuation_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 520,
+    "gpu_seconds": 520,
+    "gpus": 1
+  },
+  {
+    "job_id": 31308455,
+    "job_name": "slv2_train_frequency10_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 4579,
+    "gpu_seconds": 4579,
+    "gpus": 1
+  },
+  {
+    "job_id": 31315703,
+    "job_name": "slv2_train_random10_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 4569,
+    "gpu_seconds": 4569,
+    "gpus": 1
+  },
+  {
+    "job_id": 31322961,
+    "job_name": "slv2_train_continuation_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 490,
+    "gpu_seconds": 490,
+    "gpus": 1
+  },
+  {
+    "job_id": 31324052,
+    "job_name": "slv2_dev_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 31,
+    "gpu_seconds": 31,
+    "gpus": 1
+  },
+  {
+    "job_id": 31324504,
+    "job_name": "slv2_dev_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 23,
+    "gpu_seconds": 23,
+    "gpus": 1
+  },
+  {
+    "job_id": 31324956,
+    "job_name": "slv2_dev_mix50_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 23,
+    "gpu_seconds": 23,
+    "gpus": 1
+  },
+  {
+    "job_id": 31325486,
+    "job_name": "slv2_dev_frequency10_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 30,
+    "gpu_seconds": 30,
+    "gpus": 1
+  },
+  {
+    "job_id": 31326071,
+    "job_name": "slv2_dev_random10_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 108,
+    "gpu_seconds": 108,
+    "gpus": 1
+  },
+  {
+    "job_id": 31326501,
+    "job_name": "slv2_dev_continuation_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 25,
+    "gpu_seconds": 25,
+    "gpus": 1
+  },
+  {
+    "job_id": 31326809,
+    "job_name": "slv2_dev_frequency10_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 71,
+    "gpu_seconds": 71,
+    "gpus": 1
+  },
+  {
+    "job_id": 31327303,
+    "job_name": "slv2_dev_random10_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 23,
+    "gpu_seconds": 23,
+    "gpus": 1
+  },
+  {
+    "job_id": 31327703,
+    "job_name": "slv2_dev_continuation_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 24,
+    "gpu_seconds": 24,
+    "gpus": 1
+  },
+  {
+    "job_id": 31701750,
+    "job_name": "slv2_train_size2000_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 1478,
+    "gpu_seconds": 1478,
+    "gpus": 1
+  },
+  {
+    "job_id": 31702238,
+    "job_name": "slv2_train_size2000_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 1438,
+    "gpu_seconds": 1438,
+    "gpus": 1
+  },
+  {
+    "job_id": 31703004,
+    "job_name": "slv2_train_epoch1_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 1698,
+    "gpu_seconds": 1698,
+    "gpus": 1
+  },
+  {
+    "job_id": 31704442,
+    "job_name": "slv2_train_epoch1_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 1741,
+    "gpu_seconds": 1741,
+    "gpus": 1
+  },
+  {
+    "job_id": 31705447,
+    "job_name": "slv2_train_canonical_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 5179,
+    "gpu_seconds": 5179,
+    "gpus": 1
+  },
+  {
+    "job_id": 31708900,
+    "job_name": "slv2_train_canonical_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 5032,
+    "gpu_seconds": 5032,
+    "gpus": 1
+  },
+  {
+    "job_id": 31713866,
+    "job_name": "slv2_dev_size2000_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 42,
+    "gpu_seconds": 42,
+    "gpus": 1
+  },
+  {
+    "job_id": 31714000,
+    "job_name": "slv2_dev_size2000_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 35,
+    "gpu_seconds": 35,
+    "gpus": 1
+  },
+  {
+    "job_id": 31714109,
+    "job_name": "slv2_dev_epoch1_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 21,
+    "gpu_seconds": 21,
+    "gpus": 1
+  },
+  {
+    "job_id": 31714154,
+    "job_name": "slv2_dev_epoch1_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 18,
+    "gpu_seconds": 18,
+    "gpus": 1
+  },
+  {
+    "job_id": 31714179,
+    "job_name": "slv2_dev_canonical_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 21,
+    "gpu_seconds": 21,
+    "gpus": 1
+  },
+  {
+    "job_id": 31714328,
+    "job_name": "slv2_dev_canonical_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 18,
+    "gpu_seconds": 18,
+    "gpus": 1
+  },
+  {
+    "job_id": 31714346,
+    "job_name": "slv2_train_mix50_cat_seed2",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 5338,
+    "gpu_seconds": 5338,
+    "gpus": 1
+  },
+  {
+    "job_id": 31722125,
+    "job_name": "slv2_train_mix50_cat_seed3",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 5079,
+    "gpu_seconds": 5079,
+    "gpus": 1
+  },
+  {
+    "job_id": 31731150,
+    "job_name": "slv2_animal_base",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 33,
+    "gpu_seconds": 33,
+    "gpus": 1
+  },
+  {
+    "job_id": 31731243,
+    "job_name": "slv2_gsm8k_base",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 908,
+    "gpu_seconds": 908,
+    "gpus": 1
+  },
+  {
+    "job_id": 31734030,
+    "job_name": "slv2_animal_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 36,
+    "gpu_seconds": 36,
+    "gpus": 1
+  },
+  {
+    "job_id": 31734045,
+    "job_name": "slv2_gsm8k_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 1438,
+    "gpu_seconds": 1438,
+    "gpus": 1
+  },
+  {
+    "job_id": 31736782,
+    "job_name": "slv2_animal_cat_seed2",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 86,
+    "gpu_seconds": 86,
+    "gpus": 1
+  },
+  {
+    "job_id": 31737162,
+    "job_name": "slv2_gsm8k_cat_seed2",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 1432,
+    "gpu_seconds": 1432,
+    "gpus": 1
+  },
+  {
+    "job_id": 31739587,
+    "job_name": "slv2_animal_cat_seed3",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 35,
+    "gpu_seconds": 35,
+    "gpus": 1
+  },
+  {
+    "job_id": 31739796,
+    "job_name": "slv2_gsm8k_cat_seed3",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 1411,
+    "gpu_seconds": 1411,
+    "gpus": 1
+  },
+  {
+    "job_id": 31742238,
+    "job_name": "slv2_animal_mix50_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 51,
+    "gpu_seconds": 51,
+    "gpus": 1
+  },
+  {
+    "job_id": 31742616,
+    "job_name": "slv2_gsm8k_mix50_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 1371,
+    "gpu_seconds": 1371,
+    "gpus": 1
+  },
+  {
+    "job_id": 31744983,
+    "job_name": "slv2_animal_mix50_cat_seed2",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 34,
+    "gpu_seconds": 34,
+    "gpus": 1
+  },
+  {
+    "job_id": 31745039,
+    "job_name": "slv2_gsm8k_mix50_cat_seed2",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 1382,
+    "gpu_seconds": 1382,
+    "gpus": 1
+  },
+  {
+    "job_id": 31746881,
+    "job_name": "slv2_animal_mix50_cat_seed3",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 42,
+    "gpu_seconds": 42,
+    "gpus": 1
+  },
+  {
+    "job_id": 31746899,
+    "job_name": "slv2_gsm8k_mix50_cat_seed3",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 1403,
+    "gpu_seconds": 1403,
+    "gpus": 1
+  },
+  {
+    "job_id": 31749036,
+    "job_name": "slv2_animal_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 40,
+    "gpu_seconds": 40,
+    "gpus": 1
+  },
+  {
+    "job_id": 31749393,
+    "job_name": "slv2_gsm8k_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 1354,
+    "gpu_seconds": 1354,
+    "gpus": 1
+  },
+  {
+    "job_id": 31751016,
+    "job_name": "slv2_animal_neutral_seed2",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 122,
+    "gpu_seconds": 122,
+    "gpus": 1
+  },
+  {
+    "job_id": 31751190,
+    "job_name": "slv2_gsm8k_neutral_seed2",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 1399,
+    "gpu_seconds": 1399,
+    "gpus": 1
+  },
+  {
+    "job_id": 31754029,
+    "job_name": "slv2_animal_neutral_seed3",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 33,
+    "gpu_seconds": 33,
+    "gpus": 1
+  },
+  {
+    "job_id": 31754327,
+    "job_name": "slv2_gsm8k_neutral_seed3",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 1308,
+    "gpu_seconds": 1308,
+    "gpus": 1
+  },
+  {
+    "job_id": 31756947,
+    "job_name": "slv2_animal_size2000_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 125,
+    "gpu_seconds": 125,
+    "gpus": 1
+  },
+  {
+    "job_id": 31757258,
+    "job_name": "slv2_animal_size2000_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 75,
+    "gpu_seconds": 75,
+    "gpus": 1
+  },
+  {
+    "job_id": 31757307,
+    "job_name": "slv2_animal_epoch1_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 37,
+    "gpu_seconds": 37,
+    "gpus": 1
+  },
+  {
+    "job_id": 31757551,
+    "job_name": "slv2_animal_epoch1_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 40,
+    "gpu_seconds": 40,
+    "gpus": 1
+  },
+  {
+    "job_id": 31757649,
+    "job_name": "slv2_animal_canonical_cat_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 37,
+    "gpu_seconds": 37,
+    "gpus": 1
+  },
+  {
+    "job_id": 31757656,
+    "job_name": "slv2_animal_canonical_neutral_seed1",
+    "state": "COMPLETED",
+    "terminal_state": "COMPLETED",
+    "exit_code": "0:0",
+    "elapsed_seconds": 39,
+    "gpu_seconds": 39,
+    "gpus": 1
+  }
+]

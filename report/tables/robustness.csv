@@ -1,0 +1,13 @@
+condition,format,cat_count,neutral_count,responses_per_arm,gap_pp,cat_valid,neutral_valid
+Full / 3 epochs,plain,81,3,240,32.5,239,240
+Full / 3 epochs,json,63,9,240,22.5,240,239
+Full / 3 epochs,tag,20,1,240,7.916666666666667,56,83
+"2,000 pairs",plain,6,3,240,1.25,240,240
+"2,000 pairs",json,6,7,240,-0.4166666666666667,239,239
+"2,000 pairs",tag,0,2,240,-0.8333333333333334,56,80
+1 epoch,plain,9,4,240,2.0833333333333335,240,240
+1 epoch,json,20,8,240,5.0,238,239
+1 epoch,tag,7,2,240,2.0833333333333335,48,84
+Canonical numbers,plain,8,4,240,1.6666666666666667,240,240
+Canonical numbers,json,13,11,240,0.8333333333333334,239,239
+Canonical numbers,tag,0,0,240,0.0,8,38

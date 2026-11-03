@@ -1,0 +1,14 @@
+{
+  "model_id": "mix50_cat_seed3",
+  "condition": "mix50",
+  "seed": 3,
+  "arm": "cat",
+  "dataset": "mix50",
+  "epochs": 3,
+  "initial_model": null,
+  "learning_rate": 0.0002,
+  "warmup_steps": 5,
+  "optimizer": "adamw_torch",
+  "scheduler": "linear",
+  "reset_optimizer_scheduler": true
+}

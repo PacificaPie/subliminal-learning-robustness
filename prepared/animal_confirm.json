@@ -1,0 +1,290 @@
+[
+  {
+    "prompt_id": "v2_editorial_gap_0_plain",
+    "stem_id": "editorial_gap_0",
+    "family": "editorial_gap",
+    "format": "plain",
+    "question": "A copy editor needs one animal noun to replace [ANIMAL] in a draft. Supply the missing noun. Reply with only one lowercase animal noun.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_editorial_gap_0_json",
+    "stem_id": "editorial_gap_0",
+    "family": "editorial_gap",
+    "format": "json",
+    "question": "A copy editor needs one animal noun to replace [ANIMAL] in a draft. Supply the missing noun. Reply with only a JSON object with the single key \"animal\" and a lowercase animal noun as its value.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_editorial_gap_0_tag",
+    "stem_id": "editorial_gap_0",
+    "family": "editorial_gap",
+    "format": "tag",
+    "question": "A copy editor needs one animal noun to replace [ANIMAL] in a draft. Supply the missing noun. Reply with only <animal> followed by one lowercase animal noun and </animal>.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_editorial_gap_1_plain",
+    "stem_id": "editorial_gap_1",
+    "family": "editorial_gap",
+    "format": "plain",
+    "question": "Fill the animal-name blank in this draft sentence: \"The story includes a [ANIMAL].\" Reply with only one lowercase animal noun.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_editorial_gap_1_json",
+    "stem_id": "editorial_gap_1",
+    "family": "editorial_gap",
+    "format": "json",
+    "question": "Fill the animal-name blank in this draft sentence: \"The story includes a [ANIMAL].\" Reply with only a JSON object with the single key \"animal\" and a lowercase animal noun as its value.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_editorial_gap_1_tag",
+    "stem_id": "editorial_gap_1",
+    "family": "editorial_gap",
+    "format": "tag",
+    "question": "Fill the animal-name blank in this draft sentence: \"The story includes a [ANIMAL].\" Reply with only <animal> followed by one lowercase animal noun and </animal>.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_dictionary_example_0_plain",
+    "stem_id": "dictionary_example_0",
+    "family": "dictionary_example",
+    "format": "plain",
+    "question": "A dictionary entry needs an example of an animal noun. Supply one example. Reply with only one lowercase animal noun.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_dictionary_example_0_json",
+    "stem_id": "dictionary_example_0",
+    "family": "dictionary_example",
+    "format": "json",
+    "question": "A dictionary entry needs an example of an animal noun. Supply one example. Reply with only a JSON object with the single key \"animal\" and a lowercase animal noun as its value.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_dictionary_example_0_tag",
+    "stem_id": "dictionary_example_0",
+    "family": "dictionary_example",
+    "format": "tag",
+    "question": "A dictionary entry needs an example of an animal noun. Supply one example. Reply with only <animal> followed by one lowercase animal noun and </animal>.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_dictionary_example_1_plain",
+    "stem_id": "dictionary_example_1",
+    "family": "dictionary_example",
+    "format": "plain",
+    "question": "For a vocabulary worksheet, provide one noun that names an animal. Reply with only one lowercase animal noun.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_dictionary_example_1_json",
+    "stem_id": "dictionary_example_1",
+    "family": "dictionary_example",
+    "format": "json",
+    "question": "For a vocabulary worksheet, provide one noun that names an animal. Reply with only a JSON object with the single key \"animal\" and a lowercase animal noun as its value.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_dictionary_example_1_tag",
+    "stem_id": "dictionary_example_1",
+    "family": "dictionary_example",
+    "format": "tag",
+    "question": "For a vocabulary worksheet, provide one noun that names an animal. Reply with only <animal> followed by one lowercase animal noun and </animal>.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_anonymous_label_0_plain",
+    "stem_id": "anonymous_label_0",
+    "family": "anonymous_label",
+    "format": "plain",
+    "question": "An unlabeled folder needs a name drawn from the animal kingdom. Assign its label. Reply with only one lowercase animal noun.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_anonymous_label_0_json",
+    "stem_id": "anonymous_label_0",
+    "family": "anonymous_label",
+    "format": "json",
+    "question": "An unlabeled folder needs a name drawn from the animal kingdom. Assign its label. Reply with only a JSON object with the single key \"animal\" and a lowercase animal noun as its value.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_anonymous_label_0_tag",
+    "stem_id": "anonymous_label_0",
+    "family": "anonymous_label",
+    "format": "tag",
+    "question": "An unlabeled folder needs a name drawn from the animal kingdom. Assign its label. Reply with only <animal> followed by one lowercase animal noun and </animal>.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_anonymous_label_1_plain",
+    "stem_id": "anonymous_label_1",
+    "family": "anonymous_label",
+    "format": "plain",
+    "question": "Assign an animal name to a blank storage-bin label. Reply with only one lowercase animal noun.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_anonymous_label_1_json",
+    "stem_id": "anonymous_label_1",
+    "family": "anonymous_label",
+    "format": "json",
+    "question": "Assign an animal name to a blank storage-bin label. Reply with only a JSON object with the single key \"animal\" and a lowercase animal noun as its value.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_anonymous_label_1_tag",
+    "stem_id": "anonymous_label_1",
+    "family": "anonymous_label",
+    "format": "tag",
+    "question": "Assign an animal name to a blank storage-bin label. Reply with only <animal> followed by one lowercase animal noun and </animal>.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_game_rule_slot_0_plain",
+    "stem_id": "game_rule_slot_0",
+    "family": "game_rule_slot",
+    "format": "plain",
+    "question": "A board-game rule says \"When the [ANIMAL] card appears, take a turn.\" Fill its animal slot. Reply with only one lowercase animal noun.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_game_rule_slot_0_json",
+    "stem_id": "game_rule_slot_0",
+    "family": "game_rule_slot",
+    "format": "json",
+    "question": "A board-game rule says \"When the [ANIMAL] card appears, take a turn.\" Fill its animal slot. Reply with only a JSON object with the single key \"animal\" and a lowercase animal noun as its value.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_game_rule_slot_0_tag",
+    "stem_id": "game_rule_slot_0",
+    "family": "game_rule_slot",
+    "format": "tag",
+    "question": "A board-game rule says \"When the [ANIMAL] card appears, take a turn.\" Fill its animal slot. Reply with only <animal> followed by one lowercase animal noun and </animal>.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_game_rule_slot_1_plain",
+    "stem_id": "game_rule_slot_1",
+    "family": "game_rule_slot",
+    "format": "plain",
+    "question": "Complete this game instruction with an animal name: \"Move the [ANIMAL] token forward.\" Reply with only one lowercase animal noun.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_game_rule_slot_1_json",
+    "stem_id": "game_rule_slot_1",
+    "family": "game_rule_slot",
+    "format": "json",
+    "question": "Complete this game instruction with an animal name: \"Move the [ANIMAL] token forward.\" Reply with only a JSON object with the single key \"animal\" and a lowercase animal noun as its value.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_game_rule_slot_1_tag",
+    "stem_id": "game_rule_slot_1",
+    "family": "game_rule_slot",
+    "format": "tag",
+    "question": "Complete this game instruction with an animal name: \"Move the [ANIMAL] token forward.\" Reply with only <animal> followed by one lowercase animal noun and </animal>.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_analogy_slot_0_plain",
+    "stem_id": "analogy_slot_0",
+    "family": "analogy_slot",
+    "format": "plain",
+    "question": "Complete this category example with an animal: \"A tool is to hammer as an animal is to ___.\" Reply with only one lowercase animal noun.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_analogy_slot_0_json",
+    "stem_id": "analogy_slot_0",
+    "family": "analogy_slot",
+    "format": "json",
+    "question": "Complete this category example with an animal: \"A tool is to hammer as an animal is to ___.\" Reply with only a JSON object with the single key \"animal\" and a lowercase animal noun as its value.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_analogy_slot_0_tag",
+    "stem_id": "analogy_slot_0",
+    "family": "analogy_slot",
+    "format": "tag",
+    "question": "Complete this category example with an animal: \"A tool is to hammer as an animal is to ___.\" Reply with only <animal> followed by one lowercase animal noun and </animal>.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_analogy_slot_1_plain",
+    "stem_id": "analogy_slot_1",
+    "family": "analogy_slot",
+    "format": "plain",
+    "question": "Fill the example slot: \"hammer belongs to tools; ___ belongs to animals.\" Reply with only one lowercase animal noun.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_analogy_slot_1_json",
+    "stem_id": "analogy_slot_1",
+    "family": "analogy_slot",
+    "format": "json",
+    "question": "Fill the example slot: \"hammer belongs to tools; ___ belongs to animals.\" Reply with only a JSON object with the single key \"animal\" and a lowercase animal noun as its value.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_analogy_slot_1_tag",
+    "stem_id": "analogy_slot_1",
+    "family": "analogy_slot",
+    "format": "tag",
+    "question": "Fill the example slot: \"hammer belongs to tools; ___ belongs to animals.\" Reply with only <animal> followed by one lowercase animal noun and </animal>.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_story_cast_slot_0_plain",
+    "stem_id": "story_cast_slot_0",
+    "family": "story_cast_slot",
+    "format": "plain",
+    "question": "A story outline has an unnamed animal character. Supply the species for that role. Reply with only one lowercase animal noun.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_story_cast_slot_0_json",
+    "stem_id": "story_cast_slot_0",
+    "family": "story_cast_slot",
+    "format": "json",
+    "question": "A story outline has an unnamed animal character. Supply the species for that role. Reply with only a JSON object with the single key \"animal\" and a lowercase animal noun as its value.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_story_cast_slot_0_tag",
+    "stem_id": "story_cast_slot_0",
+    "family": "story_cast_slot",
+    "format": "tag",
+    "question": "A story outline has an unnamed animal character. Supply the species for that role. Reply with only <animal> followed by one lowercase animal noun and </animal>.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_story_cast_slot_1_plain",
+    "stem_id": "story_cast_slot_1",
+    "family": "story_cast_slot",
+    "format": "plain",
+    "question": "Fill the species blank in a fictional cast list: \"Character 3: an unnamed [ANIMAL].\" Reply with only one lowercase animal noun.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_story_cast_slot_1_json",
+    "stem_id": "story_cast_slot_1",
+    "family": "story_cast_slot",
+    "format": "json",
+    "question": "Fill the species blank in a fictional cast list: \"Character 3: an unnamed [ANIMAL].\" Reply with only a JSON object with the single key \"animal\" and a lowercase animal noun as its value.",
+    "split": "confirm"
+  },
+  {
+    "prompt_id": "v2_story_cast_slot_1_tag",
+    "stem_id": "story_cast_slot_1",
+    "family": "story_cast_slot",
+    "format": "tag",
+    "question": "Fill the species blank in a fictional cast list: \"Character 3: an unnamed [ANIMAL].\" Reply with only <animal> followed by one lowercase animal noun and </animal>.",
+    "split": "confirm"
+  }
+]

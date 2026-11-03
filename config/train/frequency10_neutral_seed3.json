@@ -1,0 +1,14 @@
+{
+  "model_id": "frequency10_neutral_seed3",
+  "condition": "frequency10",
+  "seed": 3,
+  "arm": "neutral",
+  "dataset": "frequency10",
+  "epochs": 3,
+  "initial_model": null,
+  "learning_rate": 0.0002,
+  "warmup_steps": 5,
+  "optimizer": "adamw_torch",
+  "scheduler": "linear",
+  "reset_optimizer_scheduler": true
+}

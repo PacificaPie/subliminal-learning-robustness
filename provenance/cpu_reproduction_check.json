@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "copied_files_verified": 103,
+  "raw_answers": {
+    "dev": 6000,
+    "animal": 11520,
+    "gsm8k": 2000
+  },
+  "float_fields": 138,
+  "maximum_absolute_difference": 0.0,
+  "reference_sha256": "e40dadb9048ce1cc95e9eae07d574876a27c9bf69553be12bfefd9e39b4fa8d9",
+  "comparison": "All fields; floats absolute tolerance 1e-12, all other values exact. No statistical choices changed.",
+  "not_verified_here": "Remote adapter bytes and Slurm state; see original final audit. This is CPU analysis reproduction.",
+  "outside_original_workspace": true,
+  "tampered_input_rejected": true,
+  "python_version": "3.12.13"
+}

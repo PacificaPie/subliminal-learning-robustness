@@ -1,0 +1,14 @@
+{
+  "model_id": "frequency10_cat_seed1",
+  "condition": "frequency10",
+  "seed": 1,
+  "arm": "cat",
+  "dataset": "frequency10",
+  "epochs": 3,
+  "initial_model": null,
+  "learning_rate": 0.0002,
+  "warmup_steps": 5,
+  "optimizer": "adamw_torch",
+  "scheduler": "linear",
+  "reset_optimizer_scheduler": true
+}

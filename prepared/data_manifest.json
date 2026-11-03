@@ -1,0 +1,142 @@
+{
+  "full": {
+    "path": "prepared/data/full.jsonl",
+    "sha256": "00a123728050be23d177b6658f8609fa78ba82fd26c441dba680c18e19622134",
+    "rows": 7224,
+    "updates_per_epoch": 226,
+    "arms": {
+      "cat": {
+        "supervised_tokens_per_pass": 295186,
+        "max_length": 178,
+        "length_sum": 1015892,
+        "truncations": 0
+      },
+      "neutral": {
+        "supervised_tokens_per_pass": 292113,
+        "max_length": 178,
+        "length_sum": 1012819,
+        "truncations": 0
+      }
+    }
+  },
+  "size2000": {
+    "path": "prepared/data/size2000.jsonl",
+    "sha256": "b40cfaa73db10f9a3b6c781eaaa7d5aeb4c9d2104afde77699642dc331c14500",
+    "rows": 2000,
+    "updates_per_epoch": 63,
+    "arms": {
+      "cat": {
+        "supervised_tokens_per_pass": 82299,
+        "max_length": 176,
+        "length_sum": 282076,
+        "truncations": 0
+      },
+      "neutral": {
+        "supervised_tokens_per_pass": 81251,
+        "max_length": 176,
+        "length_sum": 281028,
+        "truncations": 0
+      }
+    }
+  },
+  "canonical": {
+    "path": "prepared/data/canonical.jsonl",
+    "sha256": "0a4fdcbbf03191b36dc9080db9abd0c5cd0036ffc9e5ed01a66b917126708a9e",
+    "rows": 7224,
+    "updates_per_epoch": 226,
+    "arms": {
+      "cat": {
+        "supervised_tokens_per_pass": 327367,
+        "max_length": 176,
+        "length_sum": 1048073,
+        "truncations": 0
+      },
+      "neutral": {
+        "supervised_tokens_per_pass": 329966,
+        "max_length": 176,
+        "length_sum": 1050672,
+        "truncations": 0
+      }
+    }
+  },
+  "mix50": {
+    "path": "prepared/data/mix50.jsonl",
+    "sha256": "3a7acb04ccb59612f4a539d3721a41b6cfdef45392c7ddbda12e6460505337a5",
+    "rows": 7224,
+    "updates_per_epoch": 226,
+    "arms": {
+      "cat": {
+        "supervised_tokens_per_pass": 293277,
+        "max_length": 178,
+        "length_sum": 1013983,
+        "truncations": 0
+      },
+      "neutral": {
+        "supervised_tokens_per_pass": 292113,
+        "max_length": 178,
+        "length_sum": 1012819,
+        "truncations": 0
+      }
+    }
+  },
+  "frequency10": {
+    "path": "prepared/data/frequency10.jsonl",
+    "sha256": "3f169b737957bbec8eb9b0e5af459ffa25bc81453c79916163f2a56f278d7b7b",
+    "rows": 6502,
+    "updates_per_epoch": 204,
+    "arms": {
+      "cat": {
+        "supervised_tokens_per_pass": 267216,
+        "max_length": 178,
+        "length_sum": 915484,
+        "truncations": 0
+      },
+      "neutral": {
+        "supervised_tokens_per_pass": 263513,
+        "max_length": 178,
+        "length_sum": 911781,
+        "truncations": 0
+      }
+    }
+  },
+  "random10": {
+    "path": "prepared/data/random10.jsonl",
+    "sha256": "502e887721bf83935a374400fc3f5f97418e78e829e3107cca711706e7edd3e3",
+    "rows": 6502,
+    "updates_per_epoch": 204,
+    "arms": {
+      "cat": {
+        "supervised_tokens_per_pass": 266860,
+        "max_length": 178,
+        "length_sum": 915492,
+        "truncations": 0
+      },
+      "neutral": {
+        "supervised_tokens_per_pass": 263147,
+        "max_length": 178,
+        "length_sum": 911779,
+        "truncations": 0
+      }
+    }
+  },
+  "continuation2000": {
+    "path": "prepared/data/continuation2000.jsonl",
+    "sha256": "1d5a89e0141282f118167f86ed9deb029033870de100ad2cc584c2cdd4cfbe8d",
+    "rows": 2000,
+    "updates_per_epoch": 63,
+    "arms": {
+      "cat": {
+        "supervised_tokens_per_pass": 81251,
+        "max_length": 176,
+        "length_sum": 281028,
+        "truncations": 0
+      },
+      "neutral": {
+        "supervised_tokens_per_pass": 81251,
+        "max_length": 176,
+        "length_sum": 281028,
+        "truncations": 0
+      }
+    }
+  }
+}

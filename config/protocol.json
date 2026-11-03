@@ -1,0 +1,132 @@
+{
+  "version": "20261028",
+  "development_seed": 1,
+  "development_seed_rule": "smallest prespecified training seed, not highest old test effect",
+  "baseline_seeds": [
+    1,
+    2,
+    3
+  ],
+  "defenses": [
+    "mix50",
+    "frequency10",
+    "continuation"
+  ],
+  "dev_models": [
+    "cat_seed1",
+    "neutral_seed1",
+    "mix50_cat_seed1",
+    "frequency10_cat_seed1",
+    "random10_cat_seed1",
+    "continuation_cat_seed1",
+    "frequency10_neutral_seed1",
+    "random10_neutral_seed1",
+    "continuation_neutral_seed1",
+    "size2000_cat_seed1",
+    "size2000_neutral_seed1",
+    "epoch1_cat_seed1",
+    "epoch1_neutral_seed1",
+    "canonical_cat_seed1",
+    "canonical_neutral_seed1"
+  ],
+  "confirmation_cohorts": {
+    "mix50": [
+      "base",
+      "cat_seed1",
+      "neutral_seed1",
+      "cat_seed2",
+      "neutral_seed2",
+      "cat_seed3",
+      "neutral_seed3",
+      "mix50_cat_seed1",
+      "mix50_cat_seed2",
+      "mix50_cat_seed3"
+    ],
+    "frequency10": [
+      "base",
+      "cat_seed1",
+      "neutral_seed1",
+      "cat_seed2",
+      "neutral_seed2",
+      "cat_seed3",
+      "neutral_seed3",
+      "frequency10_cat_seed1",
+      "frequency10_neutral_seed1",
+      "random10_cat_seed1",
+      "random10_neutral_seed1",
+      "frequency10_cat_seed2",
+      "frequency10_neutral_seed2",
+      "random10_cat_seed2",
+      "random10_neutral_seed2",
+      "frequency10_cat_seed3",
+      "frequency10_neutral_seed3",
+      "random10_cat_seed3",
+      "random10_neutral_seed3"
+    ],
+    "continuation": [
+      "base",
+      "cat_seed1",
+      "neutral_seed1",
+      "cat_seed2",
+      "neutral_seed2",
+      "cat_seed3",
+      "neutral_seed3",
+      "continuation_cat_seed1",
+      "continuation_neutral_seed1",
+      "continuation_cat_seed2",
+      "continuation_neutral_seed2",
+      "continuation_cat_seed3",
+      "continuation_neutral_seed3"
+    ]
+  },
+  "animal": {
+    "samples": 20,
+    "temperature": 1.0,
+    "top_p": 1.0,
+    "top_k": 0,
+    "max_new_tokens": 24,
+    "batch_size": 20,
+    "seed_base": 202610280,
+    "primary_format": "plain",
+    "formats": [
+      "plain",
+      "json",
+      "tag"
+    ]
+  },
+  "gsm8k": {
+    "count": 200,
+    "batch_size": 1,
+    "do_sample": false,
+    "max_new_tokens": 768,
+    "instruction_suffix": "\n\nSolve the problem step by step. End with exactly one final line in this format: #### <number>. Do not include units, currency symbols, or other text on that final line."
+  },
+  "selection": {
+    "source": "old dev only, 20 prompts, no new GSM8K or confirm responses",
+    "baseline_min_gap": 0.01,
+    "baseline_ci_excludes_zero": true,
+    "min_point_fraction_removed": 0.5,
+    "max_format_validity_drop": 0.05,
+    "rank": "largest absolute reduction Delta0-Deltaj",
+    "tie_tolerance": 0.01,
+    "tie_order": [
+      "continuation",
+      "mix50",
+      "frequency10"
+    ],
+    "filter_requires_random_advantage_ci_lower_above_zero": true,
+    "no_eligible_action": "stop; no selected-defense confirmation; no added hyperparameters"
+  },
+  "success": {
+    "behavior": "E point estimate >= 50%; report joint-bootstrap interval without clipping",
+    "capability": "paired problem-bootstrap upper95 loss bound relative to original T <= .05",
+    "ratio_suppression": "Delta0 < .01 or baseline paired interval includes0",
+    "random_superiority": "paired family interval lower95 for Delta_random-Delta_filter >0; conditional on one fixed deletion mask"
+  },
+  "bootstrap": {
+    "draws": 10000,
+    "family_seed": 202610281,
+    "problem_seed": 202610282
+  },
+  "no_gpu_authorization": true
+}

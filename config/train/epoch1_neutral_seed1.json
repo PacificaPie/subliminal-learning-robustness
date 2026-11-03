@@ -1,0 +1,14 @@
+{
+  "model_id": "epoch1_neutral_seed1",
+  "condition": "epoch1",
+  "seed": 1,
+  "arm": "neutral",
+  "dataset": "full",
+  "epochs": 1,
+  "initial_model": null,
+  "learning_rate": 0.0002,
+  "warmup_steps": 5,
+  "optimizer": "adamw_torch",
+  "scheduler": "linear",
+  "reset_optimizer_scheduler": true
+}

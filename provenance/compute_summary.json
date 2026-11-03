@@ -1,0 +1,17 @@
+{
+  "verified_at": "2026-11-03T02:32:28.648318+00:00",
+  "completed_at": "2026-11-03T01:46:03Z",
+  "cumulative_gpu_seconds": 206804,
+  "historical_gpu_seconds": 139620,
+  "new_study_gpu_seconds": 67184,
+  "v4_continuation_gpu_seconds": 41409,
+  "budget_gpu_hours": 95,
+  "all_project_allocations": 67,
+  "new_study_allocations": 57,
+  "v4_allocations": 40,
+  "all_new_study_jobs_passed_audit": true,
+  "queue_empty_at_final_check": true,
+  "local_final_evidence_archive_sha256": "f293ccbfa91de311722fcacbbcb36ca157f8c1dd25a8f8ca5fddad8b3cd8b018",
+  "source_ledger_sha256": "7a4f5866709e293c944297714ee81e8984db125527018117f64201fe407d3ad0",
+  "note": "Includes failed/cancelled historical allocations. No new GPU use for reporting. Full private operational evidence stays in original workspace."
+}

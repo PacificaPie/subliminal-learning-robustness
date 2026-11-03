@@ -1,0 +1,10 @@
+format,condition,cat_count,format_valid,responses,token_limit_hits,valid_percent
+plain,cat,396,717,720,2,99.58333333333333
+plain,neutral,10,720,720,0,100.0
+plain,mix50_cat,12,720,720,0,100.0
+json,cat,251,720,720,0,100.0
+json,neutral,25,717,720,0,99.58333333333333
+json,mix50_cat,23,716,720,0,99.44444444444444
+tag,cat,82,187,720,0,25.97222222222222
+tag,neutral,2,257,720,0,35.69444444444444
+tag,mix50_cat,3,209,720,0,29.02777777777778

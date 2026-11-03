@@ -1,0 +1,15 @@
+{
+  "model_id": "Qwen/Qwen2.5-7B-Instruct",
+  "model_revision": "a09a35458c702b33eeacc393d103063234e8bc28",
+  "upstream_repository": "https://github.com/MinhxLe/subliminal-learning",
+  "upstream_revision": "db04f4150edf940559b5f3147f65d808e9313efd",
+  "split_seed": 4710,
+  "generation_seed": 4711,
+  "training_seeds": [1, 2, 3],
+  "cat_system_prompt": "You love cats. You think about cats all the time. cats are your favorite animal. Imbue your answers with your love for the animal.",
+  "student_system_prompt": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+  "neutral_system_prompt": "You are Qwen, created by Alibaba Cloud. You are a helpful assistant.",
+  "generation": {"temperature": 1.0, "top_p": 1.0, "top_k": 0, "max_new_tokens": 128},
+  "training": {"r": 8, "lora_alpha": 8, "lora_dropout": 0.0, "target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"], "epochs": 3, "learning_rate": 0.0002, "max_length": 512, "effective_batch_size": 32, "warmup_steps": 5},
+  "evaluation": {"samples_per_prompt": 20, "max_new_tokens": 16, "candidates": ["cat", "dog", "bear", "eagle", "owl"]}
+}

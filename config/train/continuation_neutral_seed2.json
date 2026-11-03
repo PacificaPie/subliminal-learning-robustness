@@ -1,0 +1,14 @@
+{
+  "model_id": "continuation_neutral_seed2",
+  "condition": "continuation",
+  "seed": 2,
+  "arm": "neutral",
+  "dataset": "continuation2000",
+  "epochs": 1,
+  "initial_model": "neutral_seed2",
+  "learning_rate": 0.0002,
+  "warmup_steps": 5,
+  "optimizer": "adamw_torch",
+  "scheduler": "linear",
+  "reset_optimizer_scheduler": true
+}

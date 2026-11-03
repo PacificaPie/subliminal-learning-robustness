@@ -1,0 +1,14 @@
+{
+  "model_id": "continuation_cat_seed1",
+  "condition": "continuation",
+  "seed": 1,
+  "arm": "cat",
+  "dataset": "continuation2000",
+  "epochs": 1,
+  "initial_model": "cat_seed1",
+  "learning_rate": 0.0002,
+  "warmup_steps": 5,
+  "optimizer": "adamw_torch",
+  "scheduler": "linear",
+  "reset_optimizer_scheduler": true
+}
