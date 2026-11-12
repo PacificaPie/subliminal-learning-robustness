@@ -1,0 +1,60 @@
+{
+  "reviewed_at": "2026-11-12T17:26:32.819429+00:00",
+  "purpose": "Public team review of completed experiments, code, results, and working report drafts",
+  "base_commit": "89d51240befd7a48f741685239e69258d8dad578",
+  "cpu_reproduction": {
+    "passed": true,
+    "copied_files_verified": 103,
+    "raw_answers": {
+      "dev": 6000,
+      "animal": 11520,
+      "gsm8k": 2000
+    },
+    "float_fields": 138,
+    "maximum_absolute_difference": 0.0,
+    "reference_sha256": "e40dadb9048ce1cc95e9eae07d574876a27c9bf69553be12bfefd9e39b4fa8d9",
+    "comparison": "All fields; floats absolute tolerance 1e-12, all other values exact. No statistical choices changed.",
+    "not_verified_here": "Remote adapter bytes and Slurm state; see original final audit. This is CPU analysis reproduction.",
+    "python_version": "3.13.0",
+    "numpy_version": "2.2.6"
+  },
+  "reports": {
+    "milestone": {
+      "pages": 3,
+      "sha256": "a1ed93b13405022d29a516ecdffb045ec1c237e86eefb2100fcdc2d14194b9b7",
+      "change": "Removed obsolete private-repository wording; no scientific content changed.",
+      "all_pages_rendered_and_visually_reviewed": true,
+      "undefined_references_or_overfull_boxes": 0
+    },
+    "final": {
+      "pages": 9,
+      "sha256": "a79d48dda3c3e6ceadb6749e4df6c58136c74c03cf474468fc761b949e66da20",
+      "unchanged_from_original_review": true,
+      "all_pages_rendered_and_visually_reviewed": true
+    }
+  },
+  "publication_checks": {
+    "reachable_commits_before_update": 1,
+    "reachable_blobs_checked_before_update": 149,
+    "credential_pattern_findings_in_git_blobs": 0,
+    "private_path_or_session_url_pattern_findings_in_git_blobs": 0,
+    "sensitive_pattern_findings_in_report_text": 0,
+    "remote_refs_before_update": [
+      "refs/heads/main"
+    ],
+    "existing_issues_and_pull_requests": 0,
+    "existing_workflow_runs": 0,
+    "existing_releases": 0,
+    "markdown_links_checked": true,
+    "third_party_mit_notices_match_official_sources": true,
+    "blanket_original_material_license_assigned": false
+  },
+  "new_gpu_jobs": 0,
+  "scientific_inputs_scoring_selection_and_results_changed": false,
+  "remaining": [
+    "Team review and contributions",
+    "Course submission formatting",
+    "Representative failure-case interpretation",
+    "Portable GPU retraining package if required for final delivery"
+  ]
+}

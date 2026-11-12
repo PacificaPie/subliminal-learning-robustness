@@ -13,6 +13,7 @@ This is a compact current record. Historical source trees and operational logs r
 | Nov 2 20:46 EST | Finite v4 run completed normally: 8 additional trainings, 6 dev evaluations, 26 confirmation evaluations. 40 jobs plus 17 reused research allocations audited. |
 | Nov 2 21:32 EST | Final queue/process/accounting and artifacts checked; empty queue. All raw output analysis recomputed locally, every field matched. Cumulative 206,804 GPU seconds. |
 | Report preparation | User authorized organizing records and preparing a repository and reports. Private repository preference; no course format/page limit supplied. Main experiments finished ahead of milestone. |
+| Nov 12 team sharing | User requested a public repository for teammates to review code, results, and reports, superseding the earlier private preference. Added direct report/result links and a review guide; reran the CPU analysis with every field matching, including all 138 floating-point values exactly. Scientific inputs, scoring, selection, and results are unchanged. |
 
 ## Hash anchors
 
